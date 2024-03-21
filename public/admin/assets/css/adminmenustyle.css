@@ -1,0 +1,67 @@
+
+table {
+    border-collapse: collapse; /* Collapse the borders into a single border */
+    width: 100%; /* Set the table width */
+}
+th{
+    border: 5px solid white; 
+    background-color: black;/* Add a solid border to table cells */
+    padding: 30px; /* Add padding for content within cells */
+    color :white;
+}
+td {
+    border: 5px solid white; /* Add a solid border to table cells */
+    padding: 10px; /* Add padding for content within cells */
+}
+.menupagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust as needed */
+} 
+
+
+/* Additional inline styles */
+
+/* body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Put your form-related styles here */
+.form-container {
+    max-width: 400px;
+    margin: 20px;
+}
+
+.form-container label {
+    font-weight: bold;
+    color: white;
+}
+
+.form-container input {
+    color: black;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.form-container input[type="file"] {
+    /* Add styles specific to file input if needed */
+}
+
+
+.form-group input[type="submit"] {
+    color: #fff;
+    background-color: #007bff;
+    border: 0.5px solid #007bff; /* Blue border */
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+

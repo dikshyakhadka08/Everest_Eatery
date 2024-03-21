@@ -1,0 +1,61 @@
+.container-scroller {
+    margin-top: 10px;
+    margin-right: -200px;
+}
+
+.headline {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+table {
+    width: 150%; /* Set the table width to 80% */
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto;
+    border: 4px solid #ddd;
+    
+    /* margin-right: auto; */
+}
+/* Center-align pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Additional styles if needed */
+    }
+
+
+ td {
+    padding: 20px;
+    text-align: center;
+    border: 4px solid #ddd;
+    background-color: #f8f9fa;
+    word-wrap: break-word;
+}
+
+th {
+    background-color: grey;
+    padding: 20px;
+    text-align: center;
+    border: 4px black;
+ 
+    word-wrap: break-word;
+}
+tr{
+    border: 4px solid #ddd;
+    
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+ 
+}
+
+a:hover {
+    text-decoration: underline;
+}

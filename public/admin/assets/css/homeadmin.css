@@ -1,0 +1,80 @@
+
+/* Reset default margins and padding */
+body, h1, h2, h3, h4, h5, h6, p {
+margin: 0;
+padding: 0;
+}
+
+/* Global font styles */
+body {
+font-family: Arial, sans-serif;
+font-size: 16px;
+color:black;
+}
+
+/* Container styles */
+.container-scroller {
+
+height: 100vh; /* Adjust as needed */
+overflow-x: hidden;
+}
+
+/* Admin Navbar styles */
+.admin-navbar {
+/* Define styles for your admin navigation bar */
+}
+
+/* Content Wrapper styles */
+.content-wrapper {
+padding: 50px; /* Adjust padding as needed */
+background: #000000;
+padding: 1.875rem 1.75rem;
+width: 0%;
+-webkit-flex-grow: 1;
+flex-grow: 1;
+}
+
+/* Content styles */
+.content {
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 5px;
+padding: 20px;
+margin-top: 20px; /* Adjust margin as needed */
+}
+.content-container {
+    margin-left: 250px;
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.statistics-section {
+    
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    
+}
+
+.statistic {
+   
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%; /* Adjust width as needed */
+}
+
+.statistic h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.statistic h3 {
+    font-size: 24px;
+    color: #007BFF;
+    margin-top: 8px;
+}
+
+
+

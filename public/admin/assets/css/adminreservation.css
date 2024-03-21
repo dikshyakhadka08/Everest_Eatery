@@ -1,0 +1,26 @@
+/* adminstyle.css */
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 250px;
+}
+
+th {
+    border: 5px solid white;
+    padding: 30px;
+    color: white;
+}
+
+td {
+    border: 5px solid white;
+    padding: 10px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Use margin-bottom instead of margin-top */
+    /* Additional styles if needed */
+}
+

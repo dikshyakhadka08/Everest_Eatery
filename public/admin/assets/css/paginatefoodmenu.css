@@ -1,0 +1,18 @@
+.pagination {
+    display: center;
+    justify-content: center;
+    align-items: center;
+    /* Additional styles if needed */
+}
+    /* Adjust size of pagination buttons container */
+    .pagination .page-item {
+      align-items: center;
+        font-size: 0; /* Hide text in the pagination buttons */
+    }
+
+    .pagination .page-item:first-child .page-link,
+    .pagination .page-item:last-child .page-link {
+      align-items: center;
+        font-size: initial; /* Reset font size for specific buttons */
+    }
+    
